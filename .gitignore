@@ -37,3 +37,4 @@
 # 正し以下はルートバージョン管理をする
 !gradle/wrapper/gradle-wrapper.jar
 !/extlib/*.jar
+/.apt_generated_tests/
