@@ -1,4 +1,4 @@
-# “Á’è—v‘fi‚Æ‚»‚êˆÈ‰ºj
+# ç‰¹å®šè¦ç´ ï¼ˆã¨ãã‚Œä»¥ä¸‹ï¼‰
 /src/main/resources/META-INF/spring-configuration-metadata.json
 /bin
 /build
@@ -8,7 +8,7 @@
 /dist/
 /nbdist
 
-# œŠO‚·‚éŠg’£q
+# é™¤å¤–ã™ã‚‹æ‹¡å¼µå­
 *.db
 *.swp
 *.log
@@ -18,7 +18,7 @@
 *.jar
 *.zip
 
-# .* ƒŠƒ\[ƒX
+# .* ãƒªã‚½ãƒ¼ã‚¹
 .gradle
 .apt_generated
 .classpath
@@ -34,6 +34,6 @@
 .vscode/
 .nb-gradle/
 
-# ³‚µˆÈ‰º‚Íƒ‹[ƒgƒo[ƒWƒ‡ƒ“ŠÇ—‚ğ‚·‚é
+# æ­£ã—ä»¥ä¸‹ã¯ãƒ«ãƒ¼ãƒˆãƒãƒ¼ã‚¸ãƒ§ãƒ³ç®¡ç†ã‚’ã™ã‚‹
 !gradle/wrapper/gradle-wrapper.jar
 !/extlib/*.jar
