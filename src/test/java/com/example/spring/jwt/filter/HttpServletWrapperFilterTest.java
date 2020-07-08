@@ -1,7 +1,6 @@
 package com.example.spring.jwt.filter;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -33,7 +32,7 @@ public class HttpServletWrapperFilterTest {
 
 	@Test
 	public void testGetOrder() {
-		assertThat(filter.getOrder(), is(0));
+		assertEquals(filter.getOrder(), 0);
 	}
 
 }

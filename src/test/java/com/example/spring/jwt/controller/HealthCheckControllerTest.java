@@ -1,8 +1,7 @@
 package com.example.spring.jwt.controller;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
@@ -60,7 +59,7 @@ public class HealthCheckControllerTest {
 				result.getResponse().getContentAsString(),
 				ResponceDto.class);
 
-		assertThat(dto.getStatus(), is(Status.OK));
+		assertEquals(dto.getStatus(), Status.OK);
 		assertNull(dto.getCode());
 		assertNull(dto.getMessage());
 	}
@@ -75,7 +74,7 @@ public class HealthCheckControllerTest {
 				result.getResponse().getContentAsString(),
 				ResponceDto.class);
 
-		assertThat(dto.getStatus(), is(Status.OK));
+		assertEquals(dto.getStatus(), Status.OK);
 		assertNull(dto.getCode());
 		assertNull(dto.getMessage());
 	}

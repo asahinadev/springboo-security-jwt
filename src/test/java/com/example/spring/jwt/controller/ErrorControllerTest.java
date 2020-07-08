@@ -1,7 +1,6 @@
 package com.example.spring.jwt.controller;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -30,7 +29,7 @@ public class ErrorControllerTest {
 
 		ResponceDto dto = controller.defaultExceptionHandler(request, exception);
 
-		assertThat(dto.getStatus(), is(Status.NG));
+		assertEquals(dto.getStatus(), Status.NG);
 
 	}
 }

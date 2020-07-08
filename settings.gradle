@@ -3,4 +3,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'spring-jwt'
+rootProject.name = 'springboo-security-jwt'
